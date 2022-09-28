@@ -2,7 +2,7 @@
 
 
 # Give lat long position of the copter in the terminal
-```dronekit-sitl copter --home=35.9835973,-95.8742309,0,180```
+```dronekit-sitl copter --home=12.976763,80.264469,0,180```
 
 # step2
 ```mavproxy.py --master tcp:127.0.0.1:5760 --out udp:127.0.0.1:14551 --out udp:10.55.222.120:14550```
