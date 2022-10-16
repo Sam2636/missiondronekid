@@ -24,9 +24,11 @@ go to software update and click main server and close  then reload the
 
 # step5 
 To download ros to full-desktop
+
 `sudo apt install ros-melodic-desktop-full`
 
 # if the file is broken
+
 `sudo apt install aptitide`
 
 `sudo aptitude install ros-melodic-desktop-full`
