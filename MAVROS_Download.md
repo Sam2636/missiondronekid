@@ -3,13 +3,15 @@
 
 
 # step 1
+To add the ROS Melodic repo, run the following command:
 `sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu bionic main" > /etc/apt/sources.list.d/ros-melodic.list`
 
 # step2
+Add official ROS Melodic repo keyring
 `sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654`
 
 # step3
-make changes in software update other software and remove jammy release tick mark then close file and reload
+Make changes in software update other software and remove jammy release tick mark then close file and reload/n
 `sudo apt update`
 
 # step4
